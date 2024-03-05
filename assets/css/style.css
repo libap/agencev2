@@ -649,7 +649,7 @@ body {
   width: 500px;
 }
 
-.course { background-color: var(--bg-white); }
+.course {  }
 
 .course-card {
   position: relative;
@@ -1890,19 +1890,37 @@ body {
   border-radius: var(--radius-10);
 }
 
+.container-portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+
+}
 
 
 .badge-portfolio {
-
-  position: absolute;
-  background-color: var(--kappel_15);
+  width: max-content;
+  text-align: center;
   max-width: max-content;
-  background-color: var(--kappel);
-  color: var(--white);
-  line-height: 30px;
-  padding-inline: 30px;
-  margin: 20px 20px;
+  line-height: 20px;
+  padding-inline: auto;
+  margin: 10px 0px;
   border-radius: var(--radius-10);
+}
+
+.container-portfolio strong {
+  color: var(--bg-black);
+}
+
+
+.avis-portfolio {
+  color: var(--bg-black);
+  text-align: center;
+  font-style: italic;
+  max-width: max-content;
+  line-height: 20px;
+  padding-inline: 10px;
 
 }
 
